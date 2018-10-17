@@ -1,0 +1,219 @@
+body {
+	margin: 0px;
+	overflow-x: hidden;
+    overflow-y: scroll
+}
+
+.menu {
+	background-color: black;
+	top: 0px;
+	margin: 0px;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+
+	opacity: .8;
+	display: inline;	
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+.menu ul li a:hover{ 
+	color: grey;
+	text-decoration: none;
+	}
+
+.wrapper > div {
+         display: grid;
+         grid-template-columns: 70% 30%;
+         grid-gap: 1em;
+         }
+
+.wrapper > div {
+         background: white;
+         padding: 1em;
+         }
+
+
+
+
+
+
+.container {
+	margin: auto;
+	width: 70vw;
+	text-align: center;
+	margin-top: 100;
+	color: #fff;
+
+}
+
+
+.container form a {
+	text-decoration: none;
+
+
+
+}
+
+
+
+
+
+.media {
+	text-decoration: none;
+	margin-top: 350px;
+
+}
+
+.menu li {
+	display: inline;
+	padding: 0px 20px;
+	font-size: 16px;
+}
+
+.paralax {
+	box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.7);
+	box-sizing: border-box;
+	min-height: 100vh;
+	min-width: 100vw;   
+	margin: 0px;
+	position: relative;
+	padding: 10vh 10vw;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.paralax1 {
+	background-attachment: fixed;
+	background-image: url(images/bryan18.jpg);
+
+}
+.paralax2 {
+	background-image: url(images/brian6.jpg);
+}
+
+.paralax2 img {
+	max-width: 200px;
+	max-height: 200px;
+	position: absolute;
+  	left:50%;
+  	right: 0;
+  	top: 0;
+  	bottom: 0;
+	margin: auto;
+}
+.paralax2 .info .skills{
+	color: green;
+}
+
+.info {
+	text-align: left;
+	/*float: left;*/
+	width: 50%;
+}
+
+.paralax3 {
+	background-attachment: fixed;
+	background-image: url(images/brian2.jpg);
+}
+.paralax4 {
+	background-image: url(images/brian8.jpg);
+	background-attachment: fixed;
+}
+
+.paralax5 {
+	background-image: url(https://s20.postimg.org/tt6ds1ypp/brian7.jpg);
+	background-attachment: fixed;
+}
+
+.paralax6 {
+	background-image: url(https://s20.postimg.org/tt6ds1ypp/brian7.jpg);
+	background-attachment: fixed;
+}
+
+.paralax7 {
+	background-image: url(https://s20.postimg.org/tt6ds1ypp/brian7.jpg);
+	background-attachment: fixed;
+}
+
+.paralax8 {
+	background-image: url(https://s20.postimg.org/f8skcdqt9/tromview.jpg);
+	background-attachment: fixed;
+}
+
+.paralax9 {
+	background-image: url(https://postimg.org/image/4uoh3zj09/brian7.jpg);
+	background-attachment: fixed;
+}
+
+
+footer {
+	box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.7);
+	box-sizing: border-box;
+	min-height: 10vh;
+	min-width: 100vw;   
+	margin: 0px;
+	position: relative;
+	padding: 1vh 1vw;
+	background-color: black;
+	
+}
+h3 {
+	text-align: center;
+	color: white;
+	
+	}
+	#text1{
+	text-align: right;
+	color: white;
+	font-size: 90px;
+	font-weight: bold;
+	font-family: sans-serif;
+
+	
+	}
+		#text2{
+	text-align: right;
+	color: white;
+	font-size: 100px;
+	font-weight: bold;
+	font-family: sans-serif;
+	
+	}
+			
+
+section.paralax.paralax1 div.container text1{
+	color: white;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+
+
+.space {
+	width:25%;
+	float: left;
+	text-align: centre;
+	height: 20%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
